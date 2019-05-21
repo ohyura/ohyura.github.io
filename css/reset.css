@@ -1,0 +1,74 @@
+html,body,div,p,ul,ol,li,dl,dt,table,caption,thead,tfoot,tbody,tr,td,form,fieldset,legend,section,article,nav,figure,figcaption,main,footer,address,h1,h2,h3,h4,h5,h6,
+span,strong,b,i,em,img,a,del,ins,label,input,select,textarea,button,video,audio,iframe, hr,br{
+	margin: 0;
+	padding: 0;
+	color: #464646;
+ 	font-size: 15px;
+ 	list-style: none;
+	border: 0;
+	line-height: 1;
+	text-decoration: none;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+
+/* IE 하위브라우저 대응 */
+section,article,nav,figure,figcaption,main,footer{
+	display: block;
+}
+
+/* 숨기처리 */
+caption,legend,hr{
+	display: none;
+}
+
+/* float 해제 */
+.clear{
+	clear: both;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* input style */
+label{
+	display: inline;
+}
+input{
+	min-height: 40px;
+	line-height: 40px;
+	border: 1px solid slategray;
+}
+input:focus{
+	border: 1px solid royalblue;
+	outline: none;
+}
+input[type="checkbox"],
+input[type="radio"]{
+	min-height: auto;
+	border: 0;
+	line-height: 1;
+}
+input[type="checkbox"]:focus,
+input[type="radio"]:focus{
+	border-color: transparent;
+}
+
+/* table */
+table{
+	width: 100%;
+	border: 1px solid midnightblue;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+th,td{
+	padding: 5px;
+	border: 1px solid midnightblue;
+}
+
+section span{
+	display: inline;
+	width: 88px;
+	height: 88px;
+	background-image: url(../images/ico_s1_off.png);
+}
